@@ -8,7 +8,6 @@
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
 int sum = 0;
-
 while (num > 0)
 {
 int num2 = num % 10;
