@@ -18,7 +18,7 @@ void PrintArray(int[] array)
     Console.Write($"{array[i]} ");
   }
 }
-int[] arr = CreateArrayRndInt(12, -999, 1000);
+int[] arr = CreateArrayRndInt(12, 100, 999);
 PrintArray(arr);
 int EvenNombers(int[] array)
 { 
