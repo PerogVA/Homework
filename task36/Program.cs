@@ -20,7 +20,7 @@ void PrintArray(int[] array)
     Console.Write($"{array[i]} ");
   }
 }
-int[] arr = CreateArrayRndInt(12, -9, 10);
+int[] arr = CreateArrayRndInt(5, 5, 10);
 PrintArray(arr);
 int SumNombers(int[] array)
 {
