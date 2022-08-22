@@ -8,6 +8,8 @@ double[] CreateArrayRndInt(int size, int min, int max)
   for (int i = 0; i < size; i++)
   {
     array[i] = rnd.Next(min, max) + rnd.NextDouble();
+    array[i] = Math.Round(array[i], 1);
+
   }
   return array;
 }
